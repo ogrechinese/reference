@@ -1,7 +1,12 @@
 #Curl example, Concur GET USER
 curl -sS -X GET "https://www.concursolutions.com/api/user/v1.0/User" -H "Authorization: OAuth XXXXXX"
 
-database
+#database
 ssh  concur+name@10.29.21.40
 ssh concur+name@10.309.21.170
 mysql -h expit04.asp.com -u name -password dbname
+
+#SVN
+#create new folder:
+svn co http://sandbox3.blah.blah.com/svn/expense/expensemobile/iphone trunk trunk
+svn update
